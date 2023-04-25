@@ -1,9 +1,10 @@
+//Imports
 import inquirer from "inquirer";
 import fs from "fs/promises";
 
-
+// My prompts
 inquirer
-let { title, description, license, usage, installation, contributing, username, email } = await inquirer
+let { title, description, license, usage, installation, contributing, username, email, test } = await inquirer
     .prompt([
         {
             type: 'input',
@@ -45,23 +46,30 @@ let { title, description, license, usage, installation, contributing, username, 
             type: 'input',
             name: 'email',
             message: 'What is your email address?'
+        },
+        {
+            type: "input",
+            name: 'test',
+            message: "What type of tests do you run to make sure that the project is running correctly?"
         }
 
     ])
 
-
+// console logs to make sure each prompt is working.
 console.log(description)
 console.log(title)
 console.log(license)
 console.log(usage)
 console.log(installation)
 console.log(contributing)
+console.log(test)
 console.log(username)
 console.log(email)
 
 
 
 
+// What my README.md is going to look like 
 let readmeText = `# Project Name: ${title}
 
 # Table of Content
@@ -89,15 +97,19 @@ ${generateLicense(license)}
 # Contributing
 ${contributing}
 
+# Tests
+${test}
+
 # Questions
 Username: ${username} <br />
 Link to Github profile: [github.com/${username}](github.com/${username}). <br />
 For further information or questions you can contact me at [${email}](${email}).
 
 `
-
+// importing the README.md
 fs.writeFile("README.md", readmeText)
 
+// function used to return a license badge 
 function generateLicense(license) {
 
     if (license === "Apache 2.0") {

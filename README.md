@@ -1,6 +1,6 @@
-# Project Name: test
+# Project Name: Adam Project
 
-## Table of Content
+# Table of Content
 <ul>
 <li><a href="#description">Description</a></li>
 <li><a href="#installation">Installation</a></li>
@@ -25,8 +25,11 @@ test
 # Contributing
 test
 
+# Tests
+test
+
 # Questions
-Username: test <br />
-Link to Github profile: [github.com/test](github.com/test). <br />
-For further information or questions you can contact me at [test](test).
+Username: FCadlera15 <br />
+Link to Github profile: [github.com/FCadlera15](github.com/FCadlera15). <br />
+For further information or questions you can contact me at [123@example.com](123@example.com).
 
