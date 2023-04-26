@@ -1,4 +1,4 @@
-# Project Name: Adam Project
+# Project Name: README-generatorinator
 
 # Table of Content
 <ul>
@@ -11,25 +11,25 @@
 </ul>
 
 # Description
-test
+This repository was made to help students like myself implement api and inquirer into javascript, This homework assignment was also made to push us and challenge us to create a better format for README.
 
 # Installation
-test
+API and inquirer
 
 # Usage
-test
+This application enables users to create a professional README using the questions and input without having to create the basic format. 
 
 # License
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Contributing
-test
+N/A
 
 # Tests
-test
+![alt text](./Untitled_%20Apr%2026%2C%202023%202_58%20PM.gif)
 
 # Questions
-Username: FCadlera15 <br />
-Link to Github profile: [github.com/FCadlera15](github.com/FCadlera15). <br />
-For further information or questions you can contact me at [123@example.com](123@example.com).
+Username: FCaldera15 <br />
+Link to Github profile: [github.com/FCaldera15](github.com/FCaldera15). <br />
+For further information or questions you can contact me at [francisco.caldera2015@gmail.com](francisco.caldera2015@gmail.com).
 
