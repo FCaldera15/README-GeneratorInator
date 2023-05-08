@@ -26,7 +26,7 @@ This application enables users to create a professional README using the questio
 N/A
 
 # Tests
-![alt text](./Untitled_%20Apr%2026%2C%202023%202_58%20PM.gif)
+Link is [here](https://drive.google.com/file/d/1tPI1Ag3_nlvNSFy51yGdTFfq6PTwXjlF/view)
 
 # Questions
 Username: FCaldera15 <br />
